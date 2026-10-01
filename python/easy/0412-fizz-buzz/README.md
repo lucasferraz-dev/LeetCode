@@ -51,7 +51,7 @@ to convert the integer into a string.
 
 ---
 
-## 💻 Solution
+## Solution
 
 ```python
 class Solution:
@@ -78,7 +78,7 @@ class Solution:
 
 ---
 
-## 📊 Complexity
+## Complexity
 
 * **Time:** O(n)
 * **Space:** O(n)
@@ -89,9 +89,54 @@ The `answer` list contains `n` elements, so the space complexity is O(n).
 
 ---
 
+## Running Tests
+
+The solution includes a separate test file, `test_solution.py`, containing automated test cases implemented with Python's built-in `unittest` framework.
+
+### Execute the tests
+
+From the exercise directory, run:
+
+```bash
+python -m unittest -v
+```
+
+### Test coverage
+
+The test suite checks:
+
+* Example 1: `n = 3`
+* Example 2: `n = 5`
+* Example 3: `n = 15`
+* Additional case: `n = 30`, verifying the final `"FizzBuzz"` result.
+
+### Expected output
+
+```text
+test_example_one ... ok
+test_example_two ... ok
+test_example_three ... ok
+test_fizzbuzz_multiple ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests
+
+OK
+```
+
+All tests must pass for the solution to be considered correct against these test cases.
+
+The tests can also be executed directly using:
+
+```bash
+python test_solution.py
+```
+
+---
+
 ## LeetCode Result
 
-**65 / 65 test cases passed** ✅
+**65 / 65 test cases passed** 
 
 * Runtime: **1 ms**
 * Runtime percentile: **34.66%**

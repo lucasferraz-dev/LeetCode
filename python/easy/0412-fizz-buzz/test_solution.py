@@ -1,34 +1,41 @@
+import unittest
+
 from solution import Solution
 
 
-solution = Solution()
+class TestFizzBuzz(unittest.TestCase):
 
-tests = [
-    (
-        3,
-        ["1", "2", "Fizz"]
-    ),
-    (
-        5,
-        ["1", "2", "Fizz", "4", "Buzz"]
-    ),
-    (
-        15,
-        [
-            "1", "2", "Fizz", "4", "Buzz",
-            "Fizz", "7", "8", "Fizz", "Buzz",
-            "11", "Fizz", "13", "14", "FizzBuzz"
-        ]
-    ),
-]
+    def setUp(self):
+        self.solution = Solution()
+
+    def test_example_one(self):
+        self.assertEqual(
+            self.solution.fizzBuzz(3),
+            ["1", "2", "Fizz"]
+        )
+
+    def test_example_two(self):
+        self.assertEqual(
+            self.solution.fizzBuzz(5),
+            ["1", "2", "Fizz", "4", "Buzz"]
+        )
+
+    def test_example_three(self):
+        self.assertEqual(
+            self.solution.fizzBuzz(15),
+            [
+                "1", "2", "Fizz", "4", "Buzz",
+                "Fizz", "7", "8", "Fizz", "Buzz",
+                "11", "Fizz", "13", "14", "FizzBuzz"
+            ]
+        )
+
+    def test_fizzbuzz_multiple(self):
+        self.assertEqual(
+            self.solution.fizzBuzz(30)[-1],
+            "FizzBuzz"
+        )
 
 
-for n, expected in tests:
-    result = solution.fizzBuzz(n)
-
-    if result == expected:
-        print(f"✅ Passed: n = {n}")
-    else:
-        print(f"❌ Failed: n = {n}")
-        print(f"   Expected: {expected}")
-        print(f"   Got:      {result}")
+if __name__ == "__main__":
+    unittest.main()

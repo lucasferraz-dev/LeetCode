@@ -65,6 +65,49 @@ The dictionary allows the lookup to be done in **O(1) average time**, avoiding t
 
 ---
 
+## Running Tests
+
+The solution includes a separate test file, `test_solution.py`, containing automated test cases implemented with Python's built-in `unittest` framework.
+
+### Execute the tests
+
+From the exercise directory, run:
+
+```bash
+python -m unittest -v
+```
+
+### Test coverage
+
+The test suite checks:
+
+* Example 1: `[2, 7, 11, 15]`, target = `9`
+* Example 2: `[3, 2, 4]`, target = `6`
+* Example 3: `[3, 3]`, target = `6`
+
+### Expected output
+
+```text
+test_example_one ... ok
+test_example_two ... ok
+test_example_three ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests
+
+OK
+```
+
+All tests must pass for the solution to be considered correct against these test cases.
+
+The tests can also be executed directly using:
+
+```bash
+python test_solution.py
+```
+
+---
+
 ## What I Learned
 
 While rewriting this problem, I made a few mistakes that helped me understand the solution better.
@@ -105,3 +148,4 @@ This was also my first exercise where I understood why replacing a nested loop w
 * Memory percentile: **7.40%**
 
 > Runtime and memory measurements can vary between submissions. The main focus here is the algorithmic complexity and the reasoning behind the solution.
+
