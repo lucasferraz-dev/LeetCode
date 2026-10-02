@@ -37,8 +37,8 @@ class Solution:
 
 ## Complexity
 
-* **Time Complexity:** O(m × n) — Each account value is visited once to calculate the customers' wealth.
-* **Space Complexity:** O(1) auxiliary space — The solution does not create an additional list to store the wealth totals.
+* **Time Complexity:** O(m × n) - Each account value is visited once to calculate the customers' wealth.
+* **Space Complexity:** O(1) auxiliary space - The solution does not create an additional list to store the wealth totals.
 
 ## Running Tests
 

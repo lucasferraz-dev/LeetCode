@@ -44,8 +44,8 @@ class Solution:
 
 ## Complexity
 
-* **Time Complexity:** O(n log n) — Sorting takes O(n log n), while building the dictionary and generating the result take O(n).
-* **Space Complexity:** O(n) — The sorted array, dictionary, and result require additional space.
+* **Time Complexity:** O(n log n) - Sorting takes O(n log n), while building the dictionary and generating the result take O(n).
+* **Space Complexity:** O(n) - The sorted array, dictionary, and result require additional space.
 
 ## Running Tests
 
