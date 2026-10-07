@@ -34,8 +34,8 @@ class Solution:
 
 ## Complexity
 
-* **Time Complexity:** O(n) — Each character is placed once, and `join()` also takes O(n).
-* **Space Complexity:** O(n) — The auxiliary list stores all `n` characters.
+* **Time Complexity:** O(n) - Each character is placed once, and `join()` also takes O(n).
+* **Space Complexity:** O(n) - The auxiliary list stores all `n` characters.
 
 ## Running Tests
 
@@ -78,10 +78,10 @@ python test_solution.py
 
 **Accepted**
 
-* Runtime: **X ms**
-* Runtime percentile: **X%**
-* Memory: **X MB**
-* Memory percentile: **X%**
+* Runtime: **0 ms**
+* Runtime percentile: **100%**
+* Memory: **19.24 MB**
+* Memory percentile: **62.53%**
 
 > Runtime and memory measurements can vary between submissions. The main focus is the algorithmic complexity and reasoning behind the solution.
 

@@ -36,8 +36,8 @@ class Solution:
 
 ## Complexity
 
-* **Time Complexity:** O(n) — Finding the maximum takes O(n) and the loop through the array takes another O(n).
-* **Space Complexity:** O(n) — The result list stores one boolean for each kid.
+* **Time Complexity:** O(n) - Finding the maximum takes O(n) and the loop through the array takes another O(n).
+* **Space Complexity:** O(n) - The result list stores one boolean for each kid.
 
 ## Running Tests
 
@@ -80,10 +80,10 @@ python test_solution.py
 
 **Accepted**
 
-* Runtime: **X ms**
-* Runtime percentile: **X%**
-* Memory: **X MB**
-* Memory percentile: **X%**
+* Runtime: **0 ms**
+* Runtime percentile: **100%**
+* Memory: **19.27 MB**
+* Memory percentile: **64.66%**
 
 > Runtime and memory measurements can vary between submissions. The main focus is the algorithmic complexity and reasoning behind the solution.
 

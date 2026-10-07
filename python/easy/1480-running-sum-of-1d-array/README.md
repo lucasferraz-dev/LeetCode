@@ -32,8 +32,8 @@ class Solution:
 
 ## Complexity
 
-* **Time Complexity:** O(n) — Each element is visited once.
-* **Space Complexity:** O(1) auxiliary space — The running sum is stored directly in the input list, without creating an additional list.
+* **Time Complexity:** O(n) - Each element is visited once.
+* **Space Complexity:** O(1) auxiliary space - The running sum is stored directly in the input list, without creating an additional list.
 
 ## Running Tests
 
@@ -76,10 +76,10 @@ python test_solution.py
 
 **Accepted**
 
-* Runtime: **X ms**
-* Runtime percentile: **X%**
-* Memory: **X MB**
-* Memory percentile: **X%**
+* Runtime: **0 ms**
+* Runtime percentile: **100%**
+* Memory: **19.30 MB**
+* Memory percentile: **81.09%**
 
 > Runtime and memory measurements can vary between submissions. The main focus is the algorithmic complexity and reasoning behind the solution.
 
