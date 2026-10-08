@@ -10,6 +10,7 @@ Each folder contains the solution, its unit tests and a README explaining the ap
 | 0009 | Palindrome Number | [0009-palindrome-number](0009-palindrome-number) |
 | 0121 | Best Time to Buy and Sell Stock | [0121-best-time-to-buy-and-sell-stock](0121-best-time-to-buy-and-sell-stock) |
 | 0242 | Valid Anagram | [0242-valid-anagram](0242-valid-anagram) |
+| 0383 | Ransom Note | [0383-ransom-note](0383-ransom-note) |
 | 0412 | Fizz Buzz | [0412-fizz-buzz](0412-fizz-buzz) |
 | 0876 | Middle of the Linked List | [0876-middle-of-the-linked-list](0876-middle-of-the-linked-list) |
 | 1342 | Number of Steps to Reduce a Number to Zero | [1342-number-of-steps-to-reduce-a-number-to-zero](1342-number-of-steps-to-reduce-a-number-to-zero) |

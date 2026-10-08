@@ -32,7 +32,7 @@ python -m unittest -v
 
 | Difficulty | Solved |
 | --- | --- |
-| [Easy](python/easy) | 14 |
+| [Easy](python/easy) | 15 |
 | Medium | 0 |
 | Hard | 0 |
 
