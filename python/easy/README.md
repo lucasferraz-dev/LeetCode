@@ -22,5 +22,6 @@ Each folder contains the solution, its unit tests and a README explaining the ap
 | 1512 | Number of Good Pairs | [1512-number-of-good-pairs](1512-number-of-good-pairs) |
 | 1528 | Shuffle String | [1528-shuffle-string](1528-shuffle-string) |
 | 1672 | Richest Customer Wealth | [1672-richest-customer-wealth](1672-richest-customer-wealth) |
+| 2974 | Minimum Number Game | [2974-minimum-number-game](2974-minimum-number-game) |
 
 [Back to the main README](../../README.md)
