@@ -15,6 +15,7 @@ Each folder contains the solution, its unit tests and a README explaining the ap
 | 0485 | Max Consecutive Ones | [0485-max-consecutive-ones](0485-max-consecutive-ones) |
 | 0876 | Middle of the Linked List | [0876-middle-of-the-linked-list](0876-middle-of-the-linked-list) |
 | 0977 | Squares of a Sorted Array | [0977-squares-of-a-sorted-array](0977-squares-of-a-sorted-array) |
+| 1089 | Duplicate Zeros | [1089-duplicate-zeros](1089-duplicate-zeros) |
 | 1295 | Find Numbers with Even Number of Digits | [1295-find-numbers-with-even-number-of-digits](1295-find-numbers-with-even-number-of-digits) |
 | 1342 | Number of Steps to Reduce a Number to Zero | [1342-number-of-steps-to-reduce-a-number-to-zero](1342-number-of-steps-to-reduce-a-number-to-zero) |
 | 1365 | How Many Numbers Are Smaller Than the Current Number | [1365-how-many-numbers-are-smaller-than-the-current-number](1365-how-many-numbers-are-smaller-than-the-current-number) |
